@@ -1,0 +1,41 @@
+.container {
+    width: 100vw;
+    height: auto; /* Allow space for footer */
+    z-index: -1;
+}
+
+.text-container {
+    width: 100vw;
+    height: 100vh; /* Or a specific height if you prefer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden
+
+}
+
+.text-container p {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.text-container > img { 
+    /* Only target direct children images of text-container */
+    position: fixed;
+}
+
+
+.header-text {
+    position: relative;
+    z-index: 1;
+}
+
+.header-text2 {
+    position: fixed; /* Keep it in the same place while scrolling */
+    opacity: 0.7;
+    z-index: 0;
+}

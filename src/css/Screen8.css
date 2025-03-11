@@ -1,0 +1,114 @@
+.screen8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+    background-color: white;
+    margin-bottom: 10px; 
+
+  }
+  
+  .screen8 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+  }
+  
+  .screen8 .product-image {
+    position: relative;
+    width: 100%;
+    max-width: 900px; 
+    margin-bottom: 30px;
+  }
+  
+  .screen8 .in-image-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen8 .tablet {
+    max-width: 40%;  
+    height: auto;
+    margin-right: -15px; 
+    z-index: 1; 
+  }
+  
+  .screen8 .dekstop {
+    max-width: 55%; 
+    height: auto;
+    z-index: 2;
+  }
+  
+  .screen8 .phone {
+    max-width: 25%; 
+    height: auto;
+    margin-left: -15px; 
+    z-index: 1; 
+  }
+  
+  .screen8 .product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .screen8 .text-in-product p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 800px;
+    margin-bottom: 30px;
+  }
+  
+  .screen8 .store-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .screen8 .store-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .screen8 .store-btn a:hover {
+    background-color: #333;
+  }
+  
+  .screen8 .store-btn .logo-apple img,
+  .screen8 .store-btn .logo-settapp img {
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .screen8 .store-btn .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+  }
+  
+  .screen8 .store-btn .title p {
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .screen8 .store-btn {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+}
