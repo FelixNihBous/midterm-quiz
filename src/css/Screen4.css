@@ -1,0 +1,75 @@
+.Accuracy-and-Precision {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #f2f2f8;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+  
+  .text-content {
+    width: 410px;
+    text-align: left;
+    padding: 40px;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+  }
+  
+  .Accuracy-and-Precision img {
+    width: 572px;
+    height: 520px;
+  }
+  
+  .efficiency-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Add this line */
+  }
+  
+  .efficiency-info img {
+    width: 100%;
+    max-width: 490px;
+    border-radius: 30px;
+  }
+  
+  .efficiency-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  .efficiency-info-wrapper img {
+    width: 100%;
+    max-width: 490px;
+  }
+  
+  .title-info {
+    text-align: left;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .title-info h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #212121;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+  
+  .title-info p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+  }
